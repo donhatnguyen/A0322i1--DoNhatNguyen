@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let test = parseInt(prompt('kiem tra 15 phut'));
+let Me = parseInt(prompt('kiem tra giữa kỳ'));
+let FE = parseInt(prompt('kiem tra cuối kỳ'));
+ let avg = ( test + Math.pow(parseFloat(Me),2) + FE * 3) / 6
+    if (avg >= 9){
+        alert('hoc sinh gioi')
+    }else if ( avg >= 7){
+        alert('hoc sinh khá')
+    }else  if ( avg >= 5){
+        alert('hoc sinh trung binh')
+    }else
+        alert('học sinh yếu' + avg)
+</script>
+</body>
+</html>
