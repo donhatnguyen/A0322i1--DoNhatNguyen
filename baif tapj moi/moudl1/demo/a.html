@@ -6,13 +6,21 @@
 </head>
 <body>
 <script>
-    let x = [1, 3, 5, 8];
-    for (let i = 0; i < x.length; i++) {
-        if (x[i] > 4) {
-            x[i] = 0;
-        }
+
+    function footToMeter(foot) {
+        return 0.305 * foot;
     }
-    console.log(x);
+    console.log(footToMeter(1));
+    // function footToMeter() {
+    //     let foot = Number(prompt("input: "));
+    //     return foot * 0.305;
+    // }
+
+    console.log(footToMeter(1));
+    function meterToFoot(meter) {
+        return 3.279 * meter;
+    }
+    console.log(meterToFoot(1));
 </script>
 
 

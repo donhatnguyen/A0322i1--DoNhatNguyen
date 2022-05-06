@@ -1,0 +1,18 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [1,2,3,4,5,6,7,12,23,22,15,16,]
+    let v = parseInt(prompt("nhập số nguyên V :"))
+    if (arr.indexOf(v) > -1){
+        arr.slice(arr.indexOf(v),1,arr.push(0));
+        document.write(v +"V is in the array")
+    }else
+        document.write(v +"V is not in the array")
+</script>
+</body>
+</html>
