@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var temperature = function (C0) {
+        this.C0 = function () {
+            return ((C0*1.8000) + 32.00)
+
+        }
+        this.Tokevin = function () {
+            return (C0 + 23.33)
+
+        }
+    }
+    function main() {
+        var   rec1 = new temperature(25);
+        var   main2  = rec1.C0();
+        var   main3 =rec1.Tokevin();
+        alert(" DO F LA " + main2 + " DO KEN LA " + main3);
+
+    }
+</script>
+</body>
+</html>

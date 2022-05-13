@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe" , "Regulus"]
+    let arr1 = [ "Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major" , "Leo"]
+    function star(a) {
+
+            if ( arr.indexOf(a) > 1){
+                let i = arr.indexOf(a)
+                return arr1[i];
+            }else {
+                return " khong tim thay ngoi sao"
+            }
+
+    }
+    let a = prompt("nha; ten ngoi sao vao:" )
+    alert(star(a))
+</script>
+</body>
+</html>

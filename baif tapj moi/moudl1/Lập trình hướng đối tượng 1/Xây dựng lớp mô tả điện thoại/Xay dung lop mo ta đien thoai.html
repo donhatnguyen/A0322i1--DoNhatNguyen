@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img id="racingboy" width="900" height="700" src="https://vcdn-vnexpress.vnecdn.net/2020/11/14/sian-roadster-price-1605369239-9473-1605370896.jpg">
+<canvas id="myCanvas" width="1000" height="800" style="border:1px solid #000000;">
+</canvas>
+
+<script>
+    window.onload = function(){
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        var img = document.getElementById("scream");
+        ctx.drawImage(img, 10, 50);
+    }
+</script>
+</body>
+</html>
